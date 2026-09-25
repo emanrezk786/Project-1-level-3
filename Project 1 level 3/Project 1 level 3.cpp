@@ -671,7 +671,7 @@ void ShowTransactionsMenue()
 short ReadMainMenueOption()
 {
     short Choice = 0;
-    cout << "Choose what do you want to do? [1 to 6]? ";
+    cout << "Choose what do you want to do? [1 to 7]? ";
     cin >> Choice;
 
     return Choice;
