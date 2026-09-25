@@ -565,7 +565,7 @@ void ShowWithDrawScreen()
     while (Amount > Client.AccountBalance)
     {
         cout << "\nAmount Exceeds The Balance , You Can Withdraw Up To : " << Client.AccountBalance;
-        cout << "Please Enter Anothor Amount ? ";
+        cout << "\nPlease Enter Anothor Amount ? ";
         cin >> Amount;
 
     }
