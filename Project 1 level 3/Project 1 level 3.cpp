@@ -153,9 +153,7 @@ vector <sClient> LoadCleintsDataFromFile(string FileName)
 void PrintClientRecordLine(sClient Client)
 {
     cout << "| " << setw(15) << left << Client.AccountNumber;
-    cout << "| " << setw(10) << left << Client.PinCode;
     cout << "| " << setw(40) << left << Client.Name;
-    cout << "| " << setw(12) << left << Client.Phone;
     cout << "| " << setw(12) << left << Client.AccountBalance;
 }
 
@@ -230,7 +228,7 @@ void PrintClientCard(sClient Client)
 {
     cout << "\nThe following are the client details:\n";
     cout << "-----------------------------------";
-    cout << "\nAccout Number: " << Client.AccountNumber;
+    cout << "\nAccount Number: " << Client.AccountNumber;
     cout << "\nPin Code     : " << Client.PinCode;
     cout << "\nName         : " << Client.Name;
     cout << "\nPhone        : " << Client.Phone;
